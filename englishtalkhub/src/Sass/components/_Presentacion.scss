@@ -1,0 +1,19 @@
+.PresentacionDiv {
+    background-color: white;
+    .Presentacion_title {
+        // text-align: center;
+        padding-top: 30px;
+        font-family: 'Raleyway', sans-serif;
+        font-weight: 900;
+        font-size: 5rem;
+        font-style: italic;
+        color: #8C52FF;
+        margin-left: 100px;
+    }
+    .Presentacion_CardsDiv {
+        padding-bottom: 40px;
+        margin: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+}

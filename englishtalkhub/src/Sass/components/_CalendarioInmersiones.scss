@@ -1,0 +1,24 @@
+.CalendarioInmersiones_title {
+    padding: 50px 0 0 100px;
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color:#8C52FF;
+    background-color: blue;
+}
+.CalendarioInmersiones_Div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    grid-template-rows: repeat(3, 400px);
+    margin: 40px;
+    .CalendarioInmersiones_DivUno {
+        background-color: blue;
+        img {
+            object-fit: contain;
+        }
+    }
+    img {
+        width: 100px;
+    }
+}

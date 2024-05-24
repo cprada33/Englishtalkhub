@@ -1,0 +1,27 @@
+.Footer_div {
+    background-color: #8C52FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        height: 200px;
+        padding: 20px;
+    }
+    a {
+        display: flex;
+        text-decoration: none;
+        p {
+            font-size: 1rem;
+            font-family: 'Raleway', sans-serif;
+            color: white;
+            margin-right: 30px;
+        }
+        .MuiSvgIcon-root {
+            color: white;
+            margin: 0 7px 10px 10px;
+            width: 1.3em;
+            height: 1.3em;
+        }
+    }
+
+}

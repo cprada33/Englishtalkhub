@@ -1,0 +1,70 @@
+.CursosView_title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #8C52FF;
+    text-align: center;
+    font-size: 7rem;
+}
+
+.Presencial_Div {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(7, auto);
+    padding: 50px 100px;
+    background-color: #8C52FF;
+    .Presencial_img {
+        width: 600px;
+        grid-row: 1/8;
+        grid-column: 1/2;
+        margin-left: 100px;
+    }
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 3rem;
+    }
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        color: white;
+        .MuiSvgIcon-root {
+            color: white;
+            width: 1.5em;
+            height: 1.5em;
+        }
+    }
+}
+
+.Virtual_Div {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(6, auto);
+    padding: 50px 100px;
+    background-color: #DC4FF3;
+    margin: 50px 0;
+    .Virtual_img {
+        width: 600px;
+        grid-row: 1/7;
+        grid-column: 2/3;
+        margin-left: 150px;
+    }
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        color: white;
+        margin-left: 250px;
+        font-size: 3rem;
+    }
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        color: white;
+        margin-left: 250px;
+        .MuiSvgIcon-root {
+            color: white;
+            width: 1.5em;
+            height: 1.5em;
+        }
+    }
+}
